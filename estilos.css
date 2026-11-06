@@ -1,0 +1,120 @@
+body {
+	background: #0d0d0d;
+	font-family: Verdana, Arial, serif;
+	margin: 30px;
+	color:#f5f5f5;
+}
+h1 {
+	color:#FFD700;
+	font-family: Georgia, serif;
+	font-size: 2.8rem;
+	text-align: center;
+	letter-spacing: 4px;
+}
+h1.dourado {
+	color: #FFD700;
+
+}
+h2 {
+	color: #FF8C42;
+	font-size: 24px;
+	text-align: center;
+	font-style: italic;
+}
+p {
+	color: rgb(220, 220, 220);
+	font-size: 1.1em;
+	text-align: justify;
+	line-height: 1.6;
+}
+#first {
+	color: rgb(220, 220, 220);
+	font-size: 1.1em;
+	text-align: justify;
+	line-height: 1.6;
+	
+}
+#inicio h1 {
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+.imagem {
+	float: left;
+	width: 300px;
+	margin-right: 25px;
+	border: 3px solid #FFD700;
+	border-radius: 10px;
+}
+.caixa {
+	background-color: #1a1a1a;
+	padding: 25px;
+	max-width:900px;
+	margin: 0 auto;
+	display: flow-root;
+}
+.clear-both {
+	clear: both;
+}
+.titulos-meio {
+	max-width: 900px;
+	margin: 60px auto 20px auto;
+	text-align: center;
+}
+.titulos-meio p {
+	text-align: center;
+	color: #aaa;
+	font-size: 0.9em;
+}
+.caixa-z-index {
+	position: relative;
+	height: 260px;
+	max-width: 400px;
+	margin: 30px auto 60px auto;
+}
+.camada {
+	position: absolute;
+	width: 300px;
+	padding: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.camada1 { background-color: #666; color: white; top:0px; left: 0px; z-index: 1; }
+.camada2 { background-color: #cc2222; color: white; top: 70px; left: 40px; z-index: 2; }
+.camada3 { background-color: #FFD700; color: white; top: 140px; left: 80px; z-index: 3; }
+
+ul {
+	max-width: 900px;
+	margin: 20px auto;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+ul li {
+	margin: 10px;
+	padding: 10px 15px;
+	display: inline-block;
+	background-color: #222;
+	border: 1px solid #FFD700;
+}
+.destaque {
+	background-color: white;
+	text-align: center;
+	margin-top: 5px;
+	margin: 50px;
+	padding: 5px;
+}
+a {
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+	color: #FF8C42;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+/*
+1. Desafio técnico: O mais difícil foi fazer o z-index porque não estava a conseguir posicionar as camadas como queria que ficassem. Superei alterando o "top" e o "left" de cada camada.
+2. Correção de Sintaxe: Esqueci-me bastantes vezes do ";". Tive de corrigir no Notepad++ linha a linha.
+3. Autoria: Escolhi o atributo href da tag, ele serve para indicar o destino da ligação.
